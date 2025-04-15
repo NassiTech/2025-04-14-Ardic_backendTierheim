@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 800px;
+}
+
+th,
+td {
+    border: 1px solid #aaa;
+    padding: 8px;
+}
+
+th {
+    background: #eee;
+}
+
+form {
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+button {
+    margin-top: 4px;
+    padding: 6px;
+}
+
+#message {
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    /* optional, um etwaige Standard-Abstände für Inline-Elemente zu entfernen */
+}

@@ -25,3 +25,4 @@ VALUES ("Meerschweinchen", "Ham", "gesund", 1, 0.75);
 
 INSERT INTO tiere (tierart, name, krankheit, age, gewicht);
 VALUES ("Pferd", "Esel", "kolik", 10, 550);
+DELETE FROM tiere WHERE id = ?
